@@ -1,0 +1,11 @@
+'Sum of Consecutive numbers'
+
+N = int(input())
+
+N += 1
+sum = 0
+
+for x in range(N):
+    sum += x
+    
+print(sum)
