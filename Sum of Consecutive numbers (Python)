@@ -1,5 +1,4 @@
-'Sum of Consecutive numbers'
-
+print('Enter natural number')
 N = int(input())
 
 N += 1
