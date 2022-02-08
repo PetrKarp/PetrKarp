@@ -1,5 +1,4 @@
-print('Enter natural number')
-N = int(input())
+N = int(input('Enter natural number '))
 
 N += 1
 sum = 0
