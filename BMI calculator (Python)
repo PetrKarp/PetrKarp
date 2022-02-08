@@ -1,7 +1,5 @@
-print('Enter your weight in kg')
-weight = int(input())
-print('Enter your height in m (dot as delimiter)')
-height = float(input())
+weight = int(input('Enter your weight in kg '))
+height = float(input('Enter your height in m (use dot as delimiter) '))
 BMI = weight/height**2
 
 if BMI < 18.5:
