@@ -1,0 +1,27 @@
+#'contacts'-list can be any length
+contacts = [
+    ('James', 42),
+    ('Amy', 24),
+    ('John', 31),
+    ('Amanda', 63),
+    ('Bob', 18)
+]
+
+name = input()
+#number of names:
+n = len(contacts)
+x = 0
+
+for i in range(n+1):
+    if contacts[i][0] == name:
+        print(contacts[i][0], 'is', contacts[i][1])
+        break
+    else:
+        x += 1
+        if x == n:
+            print('Not found')
+            break
+        else:
+            continue
+    
+    i += 1
