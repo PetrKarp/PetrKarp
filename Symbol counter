@@ -1,0 +1,21 @@
+"""This program counts symbols in 'string' input, 
+counts number of identical symbols and
+outputs a dictionary with symbol as 'key' and 
+number of that symbol as 'value'"""
+
+text = input('Enter your word ')
+dict = {}
+
+x = len(text)
+li = list(text)
+
+for i in range(x):
+    count = 0
+    for j in range(x):
+        if li[i] == li[j]:
+            count += 1
+        else:
+            continue
+    dict[li[i]] = count
+
+print(dict)
